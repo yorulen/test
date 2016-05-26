@@ -1,3 +1,10 @@
+machine:
+  timezone: Asia/Tokyo
+  services:
+    - chef
+    - chef solo
+    - knife solo
+    
 test:
   override:
     - echo Hello World
