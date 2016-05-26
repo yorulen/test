@@ -2,6 +2,9 @@ machine:
   timezone: Asia/Tokyo
   services: 
     - docker
+  environment:
+  ruby:
+    version: 2.2.3
 test:
   override:
     - echo Hello World
