@@ -5,9 +5,9 @@ machine:
   environment:
   ruby:
     version: 2.2.3
+dependencies:
   pre:
     - bundle exec knife solo -o dstat
-
 test:
   override:
     - echo Hello World
