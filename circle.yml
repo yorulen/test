@@ -7,6 +7,6 @@ machine:
     version: 2.2.3
 test:
   pre:
-    - bundle exec knife solo -o dstat
+    - bundle exec chef-solo -o dstat
   override:
     - echo Hello World
