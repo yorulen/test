@@ -18,7 +18,7 @@ body:
   - type: textarea
     id: Perspective
     attributes:
-      label: Perspective
+      label: # Perspective
       description: Please describe the perspective.
       placeholder: Perspective
     validations:
