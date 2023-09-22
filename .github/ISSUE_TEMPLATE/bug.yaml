@@ -8,54 +8,50 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: input
-    id: contact
+    id: summary
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: summary
+      description: Please describe the summary.
+      placeholder: summary
+    validations:
+      required: true
+  - type: textarea
+    id: Perspective
+    attributes:
+      label: Perspective
+      description: Please describe the perspective.
+      placeholder: Perspective
+    validations:
+      required: true
+  - type: textarea
+    id: How to reproduce
+    attributes:
+      label: How to reproduce
+      description: Please describe the reproduction procedure.
+      placeholder: How to reproduce
     validations:
       required: false
   - type: textarea
-    id: what-happened
+    id: Why fix this issue
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Why fix this issue
+      description: Please describe why solve the issue.
+      placeholder: Why fix this issue
     validations:
-      required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+      required: false
   - type: textarea
-    id: logs
+    id: Root issue
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
+      label: Root issue
+      description: Please describe the Root issue.
+      placeholder: Root issue
+    validations:
+      required: false
+  - type: textarea
+    id: How to solve
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: How to solve
+      description: Please describe How to solve.
+      placeholder: How to solve
+    validations:
+      required: false
