@@ -24,7 +24,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: How to reproduce
+    id: HowToReproduce
     attributes:
       label: How to reproduce
       description: Please describe the reproduction procedure.
@@ -32,7 +32,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id: Why fix this issue
+    id: WhyFixThisIssue
     attributes:
       label: Why fix this issue
       description: Please describe why solve the issue.
@@ -40,7 +40,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id: Root issue
+    id: RootIssue
     attributes:
       label: Root issue
       description: Please describe the Root issue.
@@ -48,7 +48,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id: How to solve
+    id: HowToSolve
     attributes:
       label: How to solve
       description: Please describe How to solve.
