@@ -2,8 +2,8 @@
 name: feature request
 about: To feature request
 title: "[feature request]"
-labels: "feature request"
-assignees: 
+labels: ''
+assignees: ''
 
 ---
 
@@ -15,4 +15,3 @@ assignees:
 ## Purpose
   
 ## How to solve
-
